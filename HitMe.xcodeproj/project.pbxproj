@@ -14,12 +14,13 @@
 		CE678C9418A318EE00ED4F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE678C9318A318EE00ED4F93 /* main.m */; };
 		CE678C9818A318EE00ED4F93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE678C9718A318EE00ED4F93 /* AppDelegate.m */; };
 		CE678C9B18A318EE00ED4F93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE678C9918A318EE00ED4F93 /* Main.storyboard */; };
-		CE678C9E18A318EE00ED4F93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE678C9D18A318EE00ED4F93 /* ViewController.m */; };
+		CE678C9E18A318EE00ED4F93 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE678C9D18A318EE00ED4F93 /* GameViewController.m */; };
 		CE678CA018A318EE00ED4F93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE678C9F18A318EE00ED4F93 /* Images.xcassets */; };
 		CE678CA718A318EE00ED4F93 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE678CA618A318EE00ED4F93 /* XCTest.framework */; };
 		CE678CA818A318EE00ED4F93 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE678C8718A318EE00ED4F93 /* Foundation.framework */; };
 		CE678CA918A318EE00ED4F93 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE678C8B18A318EE00ED4F93 /* UIKit.framework */; };
 		CE678CB118A318EE00ED4F93 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE678CAF18A318EE00ED4F93 /* InfoPlist.strings */; };
+		CE9F4242194FCDA500DBA42C /* PlayingCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9F4241194FCDA500DBA42C /* PlayingCardViewController.m */; };
 		CEC036CC18B28DEA00E8E543 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC036CB18B28DEA00E8E543 /* PlayingCard.m */; };
 		CEC036DB18B2953600E8E543 /* PlayingCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC036DA18B2953600E8E543 /* PlayingCardTests.m */; };
 		CEC036DE18B2A30A00E8E543 /* SetPlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC036DD18B2A30A00E8E543 /* SetPlayingCard.m */; };
@@ -49,13 +50,15 @@
 		CE678C9618A318EE00ED4F93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE678C9718A318EE00ED4F93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE678C9A18A318EE00ED4F93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CE678C9C18A318EE00ED4F93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE678C9D18A318EE00ED4F93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE678C9C18A318EE00ED4F93 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CE678C9D18A318EE00ED4F93 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		CE678C9F18A318EE00ED4F93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE678CA518A318EE00ED4F93 /* HitMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE678CA618A318EE00ED4F93 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CE678CAE18A318EE00ED4F93 /* HitMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HitMeTests-Info.plist"; sourceTree = "<group>"; };
 		CE678CB018A318EE00ED4F93 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE9F4240194FCDA500DBA42C /* PlayingCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardViewController.h; sourceTree = "<group>"; };
+		CE9F4241194FCDA500DBA42C /* PlayingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardViewController.m; sourceTree = "<group>"; };
 		CEC036CA18B28DEA00E8E543 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		CEC036CB18B28DEA00E8E543 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		CEC036DA18B2953600E8E543 /* PlayingCardTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardTests.m; sourceTree = "<group>"; };
@@ -127,6 +130,7 @@
 				CE678C9618A318EE00ED4F93 /* AppDelegate.h */,
 				CE678C9718A318EE00ED4F93 /* AppDelegate.m */,
 				CE678C9918A318EE00ED4F93 /* Main.storyboard */,
+				CE9F4243194FCDAE00DBA42C /* Playing Card View */,
 				CEC036CE18B28EF000E8E543 /* View Controllers */,
 				CEC036CD18B28ED400E8E543 /* Model */,
 				CE678C9F18A318EE00ED4F93 /* Images.xcassets */,
@@ -164,6 +168,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CE9F4243194FCDAE00DBA42C /* Playing Card View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F4240194FCDA500DBA42C /* PlayingCardViewController.h */,
+				CE9F4241194FCDA500DBA42C /* PlayingCardViewController.m */,
+			);
+			name = "Playing Card View";
+			sourceTree = "<group>";
+		};
 		CEC036CD18B28ED400E8E543 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,8 +195,8 @@
 		CEC036CE18B28EF000E8E543 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CE678C9C18A318EE00ED4F93 /* ViewController.h */,
-				CE678C9D18A318EE00ED4F93 /* ViewController.m */,
+				CE678C9C18A318EE00ED4F93 /* GameViewController.h */,
+				CE678C9D18A318EE00ED4F93 /* GameViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -232,7 +245,7 @@
 		CE678C7C18A318EE00ED4F93 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = someCompanyNameHere;
 				TargetAttributes = {
 					CE678CA418A318EE00ED4F93 = {
@@ -285,9 +298,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE678C9E18A318EE00ED4F93 /* ViewController.m in Sources */,
+				CE678C9E18A318EE00ED4F93 /* GameViewController.m in Sources */,
 				CE678C9818A318EE00ED4F93 /* AppDelegate.m in Sources */,
 				CEC036DE18B2A30A00E8E543 /* SetPlayingCard.m in Sources */,
+				CE9F4242194FCDA500DBA42C /* PlayingCardViewController.m in Sources */,
 				CEC036CC18B28DEA00E8E543 /* PlayingCard.m in Sources */,
 				CEC036E418B2D64800E8E543 /* HitMeGame.m in Sources */,
 				CEC036E118B2A50200E8E543 /* Deck.m in Sources */,
@@ -345,7 +359,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -384,7 +397,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -450,7 +462,6 @@
 		CE678CBA18A318EE00ED4F93 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HitMe.app/HitMe";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -473,7 +484,6 @@
 		CE678CBB18A318EE00ED4F93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HitMe.app/HitMe";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
